@@ -1,4 +1,3 @@
-
 vpc-cidr-root = "10.0.0.0/16"
 
 vpc-name-root = "myvpc"
@@ -47,3 +46,9 @@ key-name-root = "tests"
 associate-public-ip-address-root = true
 sg1-name-root = "allow-all-ports"
 sg2-name-root = "allow_port-3000"
+ip-type-root = "tcp"
+to-port-sg1-root = 22
+to-port-sg2-root = 3000
+from-port-sg1-root = 22
+from-port-sg2-root = 22
+ip-val-root ="-1"
