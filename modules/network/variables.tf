@@ -65,13 +65,7 @@ variable "associate-public-ip-address" {
   type        = bool
   default = true
   }
-  variable "private_gw_egress" {
-  type = string
-}
 
-variable "public_gw_egress" {
-  type = string
-}
 
 variable "sg1-name" {
   type        = string
