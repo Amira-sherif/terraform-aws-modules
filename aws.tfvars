@@ -31,11 +31,11 @@ public2-root = false
 igw-name-root = "igw"
 
   
-rt-cidr1-root = "0.0.0.0/0"
+public-rt-cidr1-root = "0.0.0.0/0"
 
 rt-name1-root = "Public Subnet Route Table"
 
-rt-cidr2-root = "0.0.0.0/0"
+private-rt-cidr2-root = "0.0.0.0/0"
 
   
 rt-name2-root = "Route Table for the Private Subnet"
