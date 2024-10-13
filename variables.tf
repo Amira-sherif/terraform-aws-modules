@@ -6,10 +6,7 @@ variable "vpc-name-root" {
   type        = string
   }
 
-variable "aws_internet_gateway_root" {
-    type = string
-  
-}
+
 variable "subnet-cidr1-root" {
   type        = string
  
@@ -66,13 +63,6 @@ variable "public2-root" {
   type        = bool
   default = true
   }
-  variable "private_gw_egress_root" {
-  type = string
-}
-
-variable "public_gw_egress_root" {
-  type = string
-}
 
 variable "ip-type-root" {
   type        = string
