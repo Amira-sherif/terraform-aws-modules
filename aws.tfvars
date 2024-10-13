@@ -33,12 +33,11 @@ igw-name-root = "igw"
   
 public-rt-cidr1-root = "0.0.0.0/0"
 
-rt-name1-root = "Public Subnet Route Table"
+public-rt-name1-root = "Public Subnet Route Table"
 
 private-rt-cidr2-root = "0.0.0.0/0"
+private-rt-name2-root = "Route Table for the Private Subnet"
 
-  
-rt-name2-root = "Route Table for the Private Subnet"
 ami-1-id-root = "ami-0ebfd941bbafe70c6"
 ami-2-id-root = "ami-0ebfd941bbafe70c6"
 instance-type-root = "t2.micro" 
