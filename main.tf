@@ -21,9 +21,6 @@ module "mynetwork" {
     private-rt-name2 = var.private-rt-name2-root
     private-rt-cidr2 = var.private-rt-cidr2-root
 
-    public_gw_egress = var.public_gw_egress_root
-    private_gw_egress = var.private_gw_egress_root
-
     ip-type = var.ip-type-root
     sg1-name = var.sg1-name-root
     sg2-name = var.sg2-name-root
